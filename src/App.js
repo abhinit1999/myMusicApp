@@ -1,9 +1,11 @@
 import './App.css';
+import Player from './components/Player';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello APP</h1>
+    
+      <Player/>
     </div>
   );
 }
